@@ -10,11 +10,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                afirmacao: "A evolução da pandemia de COVID-19 tem sido marcada pela emergência de várias variantes do vírus  "
             },
             {
                 texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                afirmacao: "SARS-CoV-2, cada uma com impactos distintos na transmissibilidade e na eficácia das medidas de controle"
             }
         ]
     },
@@ -23,51 +23,41 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Como as vacinas contra o COVID-19 estão sendo adaptadas para lidar com as variantes emergentes do vírus?",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                afirmacao: " Desde as primeiras ondas até variantes recentes como Delta e Ômicron, os países têm "
             },
-            {
             
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
-            }
+            
+            
+            
         ]
     },
     {
         enunciado: " As vacinas contra a COVID-19 estão sendo adaptadas para lidar com as variantes emergentes do vírus de várias maneiras: atualizações das vacinas existentes para melhorar sua eficácia contra as variantes, estudos para avaliar a eficácia das vacinas contra as variantes, desenvolvimento de vacinas multivalentes e consideração de doses de reforço. Essas medidas visam garantir uma proteção contínua contra a evolução do SARS-CoV-2. ",
         alternativas: [    
-        {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
-            },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                texto: "Quais são as principais medidas tomadas pelos países para conter a propagação das novas variantes?",
+                afirmacao: "enfrentado desafios significativos na adaptação de suas estratégias de saúde pública"
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Os países têm adotado medidas como monitoramento intensivo através do sequenciamento genômico, restrições de viagem para áreas com variantes preocupantes, reforço das medidas de saúde pública como uso de máscaras e distanciamento social, aceleração das campanhas de vacinação e administração de doses de reforço, comunicação pública sobre riscos, isolamento de casos e rastreamento de contatos para conter a propagação das novas variantes do vírus SARS-CoV-2.",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                texto: "Quais são as preocupações com as variantes que podem surgir no futuro próximo?",
+                afirmacao: "A vigilância genômica, a vacinação ampla e a prontidão para ajustar políticas com base em novas variantes são "
             },
-            {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
-            }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "Preocupações futuras com variantes do SARS-CoV-2 incluem aumento da transmissibilidade, possível evasão parcial da imunidade adquirida, impacto nas vacinas existentes, potencial para aumento da severidade da doença, desafios diagnósticos e terapêuticos, e a rápida disseminação global, o que pode complicar esforços de controle da pandemia. ",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                texto: "compreendi",
+                afirmacao: "cruciais para mitigar os impactos e promover uma resposta coordenada globalmente."
             },
-            {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
-            }
+            
+                
         ]
     },
 ];
@@ -105,7 +95,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = ""
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
